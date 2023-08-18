@@ -454,6 +454,58 @@ img {
   background-color: var(--success-color);
 }
 
+.subscribe {
+  margin-left: 80px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-imput {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white-background-color);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+}
+
+.subscribe-imput::placeholder {
+  color: var(--white-background-color);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.subscribe-imput:focus-within {
+  color: var(--white-background-color);
+}
+
+.subscribe-btn {
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--primary-brand-color);
+  padding: 8px 24px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-background-color);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms var(--transition-cub);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--pressed-state-color);
+}
+
 /* Portfolio */
 
 .section-portfolio {
@@ -642,4 +694,10 @@ img {
 .modal-btn:hover .modal-btn-icon,
 .modal-btn:focus .modal-btn-icon {
   fill: var(--white-background-color);
+}
+
+/* Form */
+
+.modal-form {
+  display: block;
 }
