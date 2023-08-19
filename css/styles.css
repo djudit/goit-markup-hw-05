@@ -470,6 +470,7 @@ img {
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
+  color: var(--white-background-color);
 }
 
 .subscribe-imput::placeholder {
@@ -778,6 +779,7 @@ img {
 
 input[type="checkbox"]:checked + .agreement-box {
   background-color: var(--pressed-state-color);
+  fill: var(--white-background-color);
 }
 
 .agreement-box {
