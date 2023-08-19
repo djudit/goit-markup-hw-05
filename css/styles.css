@@ -828,10 +828,6 @@ input[type="checkbox"]:checked + .label-checkbox > .agreement-box {
   border: none;
 }
 
-/* .agreement-icon {
-  fill: transparent;
-} */
-
 .form-link {
   color: var(--primary-brand-color);
 }
