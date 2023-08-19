@@ -463,14 +463,22 @@ img {
   gap: 24px;
 }
 
+.subscribe-label {
+  gap: 24px;
+}
+
 .subscribe-imput {
   width: 264px;
   height: 40px;
   border: 1px solid var(--white-background-color);
   border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding: 8px 16px;
   color: var(--white-background-color);
+  font-style: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .subscribe-imput::placeholder {
@@ -485,7 +493,7 @@ img {
 }
 
 .subscribe-btn {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   border-radius: 4px;
   border: none;
@@ -704,6 +712,7 @@ img {
   font-weight: 500;
   text-align: center;
   margin-bottom: 16px;
+  color: var(--dark-color);
 }
 
 .form-wrap {
@@ -716,6 +725,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
+  display: block;
 }
 
 .form-box {
@@ -726,6 +736,9 @@ img {
   fill: var(--dark-color);
   height: 40px;
   width: 100%;
+  padding-left: 38px;
+  background-color: transparent;
+  outline: transparent;
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color 250ms var(--transition-cub);
