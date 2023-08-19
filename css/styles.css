@@ -822,7 +822,7 @@ img {
     border 250ms var(--transition-cub), fill 250ms var(--transition-cub);
 }
 
-input[type="checkbox"]:checked + .agreement-box {
+input[type="checkbox"]:checked + .label-checkbox > .agreement-box {
   background-color: var(--pressed-state-color);
   fill: var(--light-color);
   border: none;
