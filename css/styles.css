@@ -516,6 +516,10 @@ img {
   background-color: var(--pressed-state-color);
 }
 
+.subscribe-icon {
+  margin-left: 16px;
+}
+
 /* Portfolio */
 
 .section-portfolio {
@@ -804,14 +808,17 @@ input[type="checkbox"]:checked + .agreement-box {
 }
 
 .agreement-box {
+  fill: transparent;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
+  border-radius: 2px;
   margin-right: 8px;
+  transition: background-color 250ms var(--transition-cub),
+    border 250ms var(--transition-cub), fill 250ms var(--transition-cub);
 }
 
 .agreement-icon {
@@ -819,9 +826,9 @@ input[type="checkbox"]:checked + .agreement-box {
 }
 
 .label-checkbox {
-  display: block;
   display: flex;
   align-items: center;
+  display: block;
 }
 
 .form-link {
