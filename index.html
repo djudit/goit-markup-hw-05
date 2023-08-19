@@ -454,42 +454,65 @@
 
         <!-- Form -->
         <form class="modal-form" name="order">
-          <p>Leave your contacts and we will call you back</p>
+          <p class="item-text form-title">
+            Leave your contacts and we will call you back
+          </p>
           <!-- Name -->
-
-          <div>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
-            <svg class="" width="18" height="18">
-              <use href="./images/icons.svg#icon-"></use>
-            </svg>
+          <div class="form-wrap">
+            <label class="form-label" for="name">Name</label>
+            <div class="form-box">
+              <input class="form-imput" type="text" name="name" id="name" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <!-- Phone -->
-          <label for="phone">Phone</label>
-          <div>
-            <input type="text" name="phone" id="phone" />
-            <svg class="" width="18" height="18">
-              <use href="./images/icons.svg#icon-"></use>
-            </svg>
+          <div class="form-wrap">
+            <label class="form-label" for="phone">Phone</label>
+            <div class="form-box">
+              <input class="form-imput" type="text" name="phone" id="phone" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <!-- Email -->
-          <label for="email">Email</label>
-          <div>
-            <input type="text" name="email" id="email" />
-            <svg class="" width="18" height="18">
-              <use href="./images/icons.svg#icon-"></use>
-            </svg>
+          <div class="form-wrap">
+            <label class="form-label" for="email">Email</label>
+            <div class="form-box">
+              <input class="form-imput" type="text" name="email" id="email" />
+              <svg class="form-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <!-- Comment -->
-          <label>
-            <textarea
-              name="comment"
-              cols="30"
-              rows="3"
-              placeholder="Text input"
-            ></textarea>
-          </label>
-          <button type="submit">Send</button>
+          <div class="form-wrap-comment">
+            <label class="form-label"
+              >Comment
+              <textarea
+                class="form-textarea"
+                name="comment"
+                cols="30"
+                rows="3"
+                placeholder="Text input"
+              ></textarea>
+            </label>
+          </div>
+          <div class="form-wrap-checkbox">
+            <label class="form-label label-checkbox">
+              <input class="visually-hidden" type="checkbox" />
+              <span class="agreement-box">
+                <svg class="agreement-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="form-link" href="#">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="hero-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
