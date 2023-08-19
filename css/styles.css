@@ -802,9 +802,10 @@ img {
   margin-bottom: 24px;
 }
 
-input[type="checkbox"]:checked + .agreement-box {
-  background-color: var(--pressed-state-color);
-  fill: var(--white-background-color);
+.label-checkbox {
+  display: flex;
+  align-items: center;
+  display: block;
 }
 
 .agreement-box {
@@ -821,15 +822,15 @@ input[type="checkbox"]:checked + .agreement-box {
     border 250ms var(--transition-cub), fill 250ms var(--transition-cub);
 }
 
-.agreement-icon {
-  fill: transparent;
+input[type="checkbox"]:checked + .agreement-box {
+  background-color: var(--pressed-state-color);
+  fill: var(--light-color);
+  border: none;
 }
 
-.label-checkbox {
-  display: flex;
-  align-items: center;
-  display: block;
-}
+/* .agreement-icon {
+  fill: transparent;
+} */
 
 .form-link {
   color: var(--primary-brand-color);
