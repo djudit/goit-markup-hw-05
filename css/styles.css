@@ -818,10 +818,11 @@ input[type="checkbox"]:checked + .agreement-box {
   fill: transparent;
 }
 
-/* .label-checkbox {
+.label-checkbox {
+  display: block;
   display: flex;
   align-items: center;
-} */
+}
 
 .form-link {
   color: var(--primary-brand-color);
